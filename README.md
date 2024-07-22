@@ -7,4 +7,4 @@
 ![Most Frequent Number Whiteboard](./whightboard-challenges/challenge_B.png)
 
 ### Challenge 02: Maximum Value
-![Maximum-Value](./whighteboard-challenges/challenge_c.png)
+![Maximum-Value](./whightboard-challenges/challenge_c.png)

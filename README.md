@@ -5,3 +5,6 @@
 
 ### Challenge B: Most Frequent Number.
 ![Most Frequent Number Whiteboard](./whightboard-challenges/challenge_B.png)
+
+### Challenge 02: Maximum Value
+![Maximum-Value](./whiteboard-challenges/challenge_c.png)

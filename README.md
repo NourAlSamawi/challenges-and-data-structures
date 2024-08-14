@@ -11,3 +11,6 @@
 
 ### Challenge 03: Remove Middle Value
 ![Remove-Middle-Value](./whightboard-challenges/challenge_3.png)
+
+### Challenge 04: Insert Middle Value
+![Insert-Middle-Value](./whightboard-challenges/challenge_4.png)

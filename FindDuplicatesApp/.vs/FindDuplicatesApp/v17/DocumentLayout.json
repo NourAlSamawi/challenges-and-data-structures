@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\FindDuplicatesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1ECB0C26-DC24-4267-A948-31BA8E60059C}|Solution Items{1ECB0C26-DC24-4267-A948-31BA8E60059C}|C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\FindDuplicatesApp\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{1ECB0C26-DC24-4267-A948-31BA8E60059C}|Solution Items{1ECB0C26-DC24-4267-A948-31BA8E60059C}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB8D8BC-AAB9-4F59-BDEF-7875137D9BEE}|FindDuplicatesApp\\FindDuplicatesApp.csproj|c:\\users\\student\\source\\repos\\challenges-and-data-structures\\findduplicatesapp\\findduplicatesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB8D8BC-AAB9-4F59-BDEF-7875137D9BEE}|FindDuplicatesApp\\FindDuplicatesApp.csproj|solutionrelative:findduplicatesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\FindDuplicatesApp\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\FindDuplicatesApp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-21T08:53:49.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\FindDuplicatesApp\\FindDuplicatesApp\\Program.cs",
+              "RelativeDocumentMoniker": "FindDuplicatesApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\FindDuplicatesApp\\FindDuplicatesApp\\Program.cs",
+              "RelativeToolTip": "FindDuplicatesApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:28:05.624Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

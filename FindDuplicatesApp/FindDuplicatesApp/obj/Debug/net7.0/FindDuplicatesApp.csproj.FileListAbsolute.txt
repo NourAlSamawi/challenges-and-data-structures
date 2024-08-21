@@ -1,0 +1,15 @@
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\bin\Debug\net7.0\FindDuplicatesApp.exe
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\bin\Debug\net7.0\FindDuplicatesApp.deps.json
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\bin\Debug\net7.0\FindDuplicatesApp.runtimeconfig.json
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\bin\Debug\net7.0\FindDuplicatesApp.dll
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\bin\Debug\net7.0\FindDuplicatesApp.pdb
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\FindDuplicatesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\FindDuplicatesApp.AssemblyInfoInputs.cache
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\FindDuplicatesApp.AssemblyInfo.cs
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\FindDuplicatesApp.csproj.CoreCompileInputs.cache
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\FindDuplicatesApp.sourcelink.json
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\FindDuplicatesApp.dll
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\refint\FindDuplicatesApp.dll
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\FindDuplicatesApp.pdb
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\FindDuplicatesApp.genruntimeconfig.cache
+C:\Users\Student\Source\Repos\challenges-and-data-structures\FindDuplicatesApp\FindDuplicatesApp\obj\Debug\net7.0\ref\FindDuplicatesApp.dll

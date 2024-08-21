@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindDuplicatesApp", "FindDuplicatesApp\FindDuplicatesApp.csproj", "{6AB8D8BC-AAB9-4F59-BDEF-7875137D9BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1ECB0C26-DC24-4267-A948-31BA8E60059C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AB8D8BC-AAB9-4F59-BDEF-7875137D9BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB8D8BC-AAB9-4F59-BDEF-7875137D9BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB8D8BC-AAB9-4F59-BDEF-7875137D9BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB8D8BC-AAB9-4F59-BDEF-7875137D9BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D164FB2-C4A3-4E31-85FA-C728DF2478CA}
+	EndGlobalSection
+EndGlobal

@@ -6,6 +6,26 @@ namespace NewLinkedList
     internal class LinkedList
     {
         public Node head;
+        public void RemoveDuplicate()
+        {
+            Node current = head;
+            while (current != null && current.Next != null)
+            {
+                Node index = current;
+                while (index.Next != null)
+                {
+                    if (current.Data == index.Next.Data)
+                    {
+                        index.Next = index.Next.Next;
+                    }
+                    else
+                    {
+                        index = index.Next;
+                    }
+                }
+                current = current.Next;
+            }
+        }
 
         public void InsertToHead(Node current)
         {
@@ -88,4 +108,5 @@ namespace NewLinkedList
             Console.WriteLine("Null");
         }
     }
+
 }

@@ -30,5 +30,22 @@ class Program
 
         // Print empty list
         emptyList.PrintList(); // Output: Head -> Null
+
+        LinkedList list1 = new LinkedList();
+
+        list1.InsertEnd(new Node(5));
+        list1.InsertEnd(new Node(20));
+        list1.InsertEnd(new Node(20));
+        list1.InsertEnd(new Node(10));
+        list1.InsertEnd(new Node(5));
+        list1.InsertEnd(new Node(10));
+
+        Console.WriteLine("Before removing duplicates:");
+        list1.PrintList(); // Output: Head -> 5 -> 20 -> 20 -> 10 -> 5 -> 10 -> Null
+
+        list1.RemoveDuplicate();
+
+        Console.WriteLine("After removing duplicates:");
+        list1.PrintList(); // Output: Head -> 5 -> 20 -> 10 -> Null
     }
 }

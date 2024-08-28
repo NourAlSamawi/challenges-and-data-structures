@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\bin\Debug\net7.0\Common-Elements.exe
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\bin\Debug\net7.0\Common-Elements.deps.json
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\bin\Debug\net7.0\Common-Elements.runtimeconfig.json
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\bin\Debug\net7.0\Common-Elements.dll
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\bin\Debug\net7.0\Common-Elements.pdb
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\Common-Elements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\Common-Elements.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\Common-Elements.AssemblyInfo.cs
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\Common-Elements.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\Common-Elements.sourcelink.json
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\Common-Elements.dll
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\refint\Common-Elements.dll
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\Common-Elements.pdb
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\Common-Elements.genruntimeconfig.cache
+C:\Users\Student\source\repos\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements\Common-Elements\obj\Debug\net7.0\ref\Common-Elements.dll

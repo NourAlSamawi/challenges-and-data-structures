@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LinkedListImplementation
-build_property.ProjectDir = C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\LinkedList\LinkedListImplementation\
+build_property.ProjectDir = C:\Users\Student\Source\Repos\challenges-and-data-structures\Data Structure\LinkedList\LinkedListImplementation\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

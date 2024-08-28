@@ -31,7 +31,32 @@
                 // Checking if an element does not exist
                 contains = list.Includes(10);
                 Console.WriteLine($"List contains 10: {contains}");
-            }
+
+            // Create a new LinkedList
+            LinkedList list1 = new LinkedList();
+
+            // Add nodes to the linked list
+            list1.Add(5);
+            list1.Add(20);
+            list1.Add(20);
+            list1.Add(10);
+            list1.Add(5);
+            list1.Add(10);
+
+            // Print the list before removing duplicates
+            Console.WriteLine("Original Linked List:");
+            list1.PrintList();  // Expected Output: Head -> 5 -> 20 -> 20 -> 10 -> 5 -> 10 -> Null
+
+            // Remove duplicates from the linked list
+            list1.RemoveDuplicate();
+
+            // Print the list after removing duplicates
+            Console.WriteLine("Linked List After Removing Duplicates:");
+            list1.PrintList();  // Expected Output: Head -> 5 -> 20 -> 10 -> Null
+
+
+        }
+
         }
     }
 

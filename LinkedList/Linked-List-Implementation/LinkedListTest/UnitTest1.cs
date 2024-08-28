@@ -37,5 +37,58 @@ namespace LinkedListTest
             var output = sw.ToString().Trim();
             Assert.Equal("Head -> 5 -> 10 -> 20 -> Null", output);
         }
+
+        [Fact]
+        public void Test_No_Duplicates()
+        {
+            LinkedList list = new LinkedList();
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+
+            list.RemoveDuplicate();
+
+            Node current = list.Head;
+            Assert.Equal(1, current.Data);
+            current = current.Next;
+            Assert.Equal(2, current.Data);
+            current = current.Next;
+            Assert.Equal(3, current.Data);
+        }
+
+        [Fact]
+        public void Test_Remove_Duplicates()
+        {
+            LinkedList list = new LinkedList();
+            list.Add(1);
+            list.Add(2);
+            list.Add(2);
+            list.Add(3);
+
+            list.RemoveDuplicate();
+
+            Node current = list.Head;
+            Assert.Equal(1, current.Data);
+            current = current.Next;
+            Assert.Equal(2, current.Data);
+            current = current.Next;
+            Assert.Equal(3, current.Data);
+        }
+
+        [Fact]
+        public void Test_All_Duplicates()
+        {
+            LinkedList list = new LinkedList();
+            list.Add(5);
+            list.Add(5);
+            list.Add(5);
+
+            list.RemoveDuplicate();
+
+            Node current = list.Head;
+            Assert.Equal(5, current.Data);
+            Assert.Null(current.Next);
+        }
     }
+}
 }

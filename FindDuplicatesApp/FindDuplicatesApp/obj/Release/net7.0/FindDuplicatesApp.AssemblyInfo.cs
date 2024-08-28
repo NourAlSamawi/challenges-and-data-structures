@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FindDuplicatesApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e17204c6009f6cc4bf85f00c291355dcef15b2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5a8c997d25a9fa577e2e83ee014138dd39c58c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("FindDuplicatesApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FindDuplicatesApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

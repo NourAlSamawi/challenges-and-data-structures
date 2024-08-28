@@ -11,4 +11,8 @@
     <ProjectReference Include="..\..\LinkedListTests\LinkedListTests\LinkedListTests.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="RemoveDuplicates\" />
+  </ItemGroup>
+
 </Project>

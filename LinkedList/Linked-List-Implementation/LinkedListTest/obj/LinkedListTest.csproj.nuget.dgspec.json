@@ -11,7 +11,7 @@
         "projectName": "LinkedListImplementation",
         "projectPath": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\LinkedList\\LinkedListImplementation\\LinkedListImplementation.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\LinkedList\\LinkedListImplementation\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Source\\Repos\\challenges-and-data-structures\\Data Structure\\LinkedList\\LinkedListImplementation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -84,7 +84,7 @@
         "projectName": "LinkedListTest",
         "projectPath": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\LinkedListTest\\LinkedListTest.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\LinkedListTest\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Source\\Repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\LinkedListTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",

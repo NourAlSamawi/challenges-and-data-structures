@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4A5E9E-8CBA-49A7-B558-77BA3DFD7EC8}|Solution Items{EE4A5E9E-8CBA-49A7-B558-77BA3DFD7EC8}|C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EE4A5E9E-8CBA-49A7-B558-77BA3DFD7EC8}|Solution Items{EE4A5E9E-8CBA-49A7-B558-77BA3DFD7EC8}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4A5E9E-8CBA-49A7-B558-77BA3DFD7EC8}|Solution Items{EE4A5E9E-8CBA-49A7-B558-77BA3DFD7EC8}|C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\output.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{EE4A5E9E-8CBA-49A7-B558-77BA3DFD7EC8}|Solution Items{EE4A5E9E-8CBA-49A7-B558-77BA3DFD7EC8}|solutionrelative:output.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8397DEA3-1B67-4615-AA28-8657184B8F7D}|StackAndQueueTest\\StackAndQueueTest.csproj|c:\\users\\student\\source\\repos\\challenges-and-data-structures\\data structure\\stackandqueue\\stackandqueue\\stackandqueuetest\\queuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8397DEA3-1B67-4615-AA28-8657184B8F7D}|StackAndQueueTest\\StackAndQueueTest.csproj|solutionrelative:stackandqueuetest\\queuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8397DEA3-1B67-4615-AA28-8657184B8F7D}|StackAndQueueTest\\StackAndQueueTest.csproj|c:\\users\\student\\source\\repos\\challenges-and-data-structures\\data structure\\stackandqueue\\stackandqueue\\stackandqueuetest\\stacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8397DEA3-1B67-4615-AA28-8657184B8F7D}|StackAndQueueTest\\StackAndQueueTest.csproj|solutionrelative:stackandqueuetest\\stacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00842ECB-5C8C-44C1-9727-15502AB1683A}|StackAndQueue\\StackAndQueue.csproj|c:\\users\\student\\source\\repos\\challenges-and-data-structures\\data structure\\stackandqueue\\stackandqueue\\stackandqueue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00842ECB-5C8C-44C1-9727-15502AB1683A}|StackAndQueue\\StackAndQueue.csproj|solutionrelative:stackandqueue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00842ECB-5C8C-44C1-9727-15502AB1683A}|StackAndQueue\\StackAndQueue.csproj|c:\\users\\student\\source\\repos\\challenges-and-data-structures\\data structure\\stackandqueue\\stackandqueue\\stackandqueue\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00842ECB-5C8C-44C1-9727-15502AB1683A}|StackAndQueue\\StackAndQueue.csproj|solutionrelative:stackandqueue\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00842ECB-5C8C-44C1-9727-15502AB1683A}|StackAndQueue\\StackAndQueue.csproj|c:\\users\\student\\source\\repos\\challenges-and-data-structures\\data structure\\stackandqueue\\stackandqueue\\stackandqueue\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00842ECB-5C8C-44C1-9727-15502AB1683A}|StackAndQueue\\StackAndQueue.csproj|solutionrelative:stackandqueue\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00842ECB-5C8C-44C1-9727-15502AB1683A}|StackAndQueue\\StackAndQueue.csproj|c:\\users\\student\\source\\repos\\challenges-and-data-structures\\data structure\\stackandqueue\\stackandqueue\\stackandqueue\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00842ECB-5C8C-44C1-9727-15502AB1683A}|StackAndQueue\\StackAndQueue.csproj|solutionrelative:stackandqueue\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAM0AAACAzMzMzMwYwO4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-29T06:47:55.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "output.png",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\output.png",
+              "RelativeDocumentMoniker": "output.png",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\output.png",
+              "RelativeToolTip": "output.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-29T06:47:39.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StackTests.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueueTest\\StackTests.cs",
+              "RelativeDocumentMoniker": "StackAndQueueTest\\StackTests.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueueTest\\StackTests.cs",
+              "RelativeToolTip": "StackAndQueueTest\\StackTests.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:45:21.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueueTests.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueueTest\\QueueTests.cs",
+              "RelativeDocumentMoniker": "StackAndQueueTest\\QueueTests.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueueTest\\QueueTests.cs",
+              "RelativeToolTip": "StackAndQueueTest\\QueueTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:41:47.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Queue.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueue\\Queue.cs",
+              "RelativeDocumentMoniker": "StackAndQueue\\Queue.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueue\\Queue.cs",
+              "RelativeToolTip": "StackAndQueue\\Queue.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:32:34.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueue\\Node.cs",
+              "RelativeDocumentMoniker": "StackAndQueue\\Node.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueue\\Node.cs",
+              "RelativeToolTip": "StackAndQueue\\Node.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:32:20.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Stack.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueue\\Stack.cs",
+              "RelativeDocumentMoniker": "StackAndQueue\\Stack.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueue\\Stack.cs",
+              "RelativeToolTip": "StackAndQueue\\Stack.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAmwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:32:03.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueue\\Program.cs",
+              "RelativeDocumentMoniker": "StackAndQueue\\Program.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\Data Structure\\StackandQueue\\StackAndQueue\\StackAndQueue\\Program.cs",
+              "RelativeToolTip": "StackAndQueue\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:30:18.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

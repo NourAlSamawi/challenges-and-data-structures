@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9748A3F-EDF3-4D95-87B3-0B32C6EDDB96}|Solution Items{A9748A3F-EDF3-4D95-87B3-0B32C6EDDB96}|C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A9748A3F-EDF3-4D95-87B3-0B32C6EDDB96}|Solution Items{A9748A3F-EDF3-4D95-87B3-0B32C6EDDB96}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A39916E-FBF8-4298-841B-6930D8B4524F}|LinkedListTest\\LinkedListTest.csproj|c:\\users\\student\\source\\repos\\challenges-and-data-structures\\linkedlist\\linked-list-implementation\\linkedlisttest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A39916E-FBF8-4298-841B-6930D8B4524F}|LinkedListTest\\LinkedListTest.csproj|solutionrelative:linkedlisttest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A39916E-FBF8-4298-841B-6930D8B4524F}|LinkedListTest\\LinkedListTest.csproj|c:\\users\\student\\source\\repos\\challenges-and-data-structures\\linkedlist\\linked-list-implementation\\linkedlisttest\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A39916E-FBF8-4298-841B-6930D8B4524F}|LinkedListTest\\LinkedListTest.csproj|solutionrelative:linkedlisttest\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-28T18:36:16.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\LinkedListTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "LinkedListTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\LinkedListTest\\UnitTest1.cs",
+              "RelativeToolTip": "LinkedListTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAUAAADIzMzMzMwgwFMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T18:33:31.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\LinkedListTest\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "LinkedListTest\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\challenges-and-data-structures\\LinkedList\\Linked-List-Implementation\\LinkedListTest\\GlobalUsings.cs",
+              "RelativeToolTip": "LinkedListTest\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T18:33:30.774Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

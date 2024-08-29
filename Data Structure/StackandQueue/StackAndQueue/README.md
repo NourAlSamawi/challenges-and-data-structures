@@ -515,3 +515,133 @@ public class StackWithReverse : Stack
 
 ## Screenshot of output 
 ![output](./output1.png)
+
+# Stack Challenge: Delete Middle Element of a Stack
+
+## Problem Domain
+
+This challenge involves implementing a method to delete the middle element of a stack in C#. If the stack has an even number of elements, the lower middle element should be removed.
+
+## Detailed Requirements
+
+1. **Class to Implement:** `StackWithDeleteMiddle`
+2. **Method to Implement:** `DeleteMiddle()`
+   - Removes the middle element of the stack.
+   - Utilizes an additional stack or other methods to achieve the result.
+   - Ensures the stack remains in the correct order after the middle element is removed.
+   - Handles edge cases where the stack is empty or has only one element.
+
+## Example
+
+```csharp
+StackWithDeleteMiddle stack = new StackWithDeleteMiddle();
+stack.Push(7);
+stack.Push(14);
+stack.Push(3);
+stack.Push(8);
+stack.Push(5);
+
+Console.WriteLine(stack); // Stack: Top -> 5 -> 8 -> 3 -> 14 -> 7
+stack.DeleteMiddle();
+Console.WriteLine(stack); // Stack: Top -> 5 -> 8 -> 14 -> 7
+
+stack.Push(2);
+stack.Push(9);
+stack.Push(11);
+Console.WriteLine(stack); // Stack: Top -> 11 -> 9 -> 2 -> 5 -> 8 -> 14 -> 7
+stack.DeleteMiddle();
+Console.WriteLine(stack); // Stack: Top -> 11 -> 9 -> 2 -> 8 -> 14 -> 7
+```
+# Delete Middle Element of a Stack
+
+## Overview
+
+The `StackWithDeleteMiddle` class extends the functionality of a standard stack to include the ability to delete the middle element. This implementation is based on a custom stack class that inherits from `System.Collections.Generic.Stack<int>`.
+
+## Implementation
+
+### `StackWithDeleteMiddle.cs`
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace StackAndQueue.StackAndQueue
+{
+    public class StackWithDeleteMiddle : Stack<int>
+    {
+        public void DeleteMiddle()
+        {
+            if (Count == 0) return; // Handle empty stack
+            int middleIndex = (Count - 1) / 2;
+            Stack<int> tempStack = new Stack<int>();
+            int currentIndex = 0;
+
+            // Pop elements to find the middle element and temporarily store them
+            while (Count > 0)
+            {
+                int value = Pop();
+                if (currentIndex != middleIndex)
+                {
+                    tempStack.Push(value);
+                }
+                currentIndex++;
+            }
+
+            // Push the elements back except the middle one
+            while (tempStack.Count > 0)
+            {
+                Push(tempStack.Pop());
+            }
+        }
+
+        public override string ToString()
+        {
+            return "Stack: " + string.Join(" -> ", this.Reverse());
+        }
+    }
+}
+
+```
+
+## Edge Cases
+
+- **Empty Stack:** No element to delete.
+- **Single Element:** Removing the only element should result in an empty stack.
+- **Even Number of Elements:** Remove the lower middle element.
+
+## Algorithm
+
+1. **Calculate Middle Position:** Determine the middle index based on the total count of elements in the stack.
+2. **Use Temporary Stack:** Pop elements from the original stack while skipping the middle element.
+3. **Restore Elements:** Push the elements back onto the original stack, ensuring the order is preserved.
+
+## Time and Space Complexity
+
+- **Time Complexity:** O(n), where n is the number of elements in the stack. Each element is pushed and popped once.
+- **Space Complexity:** O(n), due to the use of an additional stack to temporarily hold elements.
+
+## Console Output
+
+Below is a screenshot of the console output demonstrating the stack operations:
+
+![Console Output](path/to/your/screenshot.png)
+
+## Additional Information
+
+- Ensure that all exceptions and edge cases are handled appropriately.
+- Add unit tests to verify the correctness of the `DeleteMiddle()` method.
+
+## Instructions for Usage
+
+1. **Create a Branch:** Ensure you are working on a branch named `Delete-Middle-Element-Stack`.
+2. **Add Files:** Place `StackWithDeleteMiddle.cs` and this `README.md` in the `DeleteMiddleElement` folder.
+3. **Update Table of Contents:** Include a link to this README file in the Table of Contents of the root `README.md`.
+
+## Implementation
+
+The implementation of the `DeleteMiddle` method can be found in the `StackWithDeleteMiddle.cs` file within the `DeleteMiddleElement` folder. This method handles the core functionality of removing the middle element from the stack.
+
+## ScreenShot of output
+![output](./output2.png)

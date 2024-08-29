@@ -68,6 +68,49 @@
                 Console.WriteLine(stack); // Expected Output: Stack: Top -> 7 -> 6 -> 1 -> 2 -> 3 -> 4 -> 5
                 stack1.ReverseStack();
                 Console.WriteLine(stack); // Expected Output: Stack: Top -> 5 -> 4 -> 3 -> 2 -> 1 -> 6 -> 7
-            }
+                
+            
+            
+            
+                Console.WriteLine("---------------------------------");
+
+                // Create a new instance of StackWithDeleteMiddle
+                StackWithDeleteMiddle stack2 = new StackWithDeleteMiddle();
+
+                // Push some elements onto the stack
+                stack2.Push(7);
+                stack2.Push(14);
+                stack2.Push(3);
+                stack2.Push(8);
+                stack2.Push(5);
+
+                // Display the stack
+                Console.WriteLine("Initial Stack:");
+                Console.WriteLine(stack2); // Stack: Top -> 5 -> 8 -> 3 -> 14 -> 7
+
+                // Delete the middle element
+                stack2.DeleteMiddle();
+
+                // Display the stack after deleting the middle element
+                Console.WriteLine("Stack after deleting the middle element:");
+                Console.WriteLine(stack2); // Stack: Top -> 5 -> 8 -> 14 -> 7
+
+                // Push more elements onto the stack
+                stack2.Push(2);
+                stack2.Push(9);
+                stack2.Push(11);
+
+                // Display the stack
+                Console.WriteLine("Stack after adding more elements:");
+                Console.WriteLine(stack2); // Stack: Top -> 11 -> 9 -> 2 -> 5 -> 8 -> 14 -> 7
+
+                // Delete the middle element again
+                stack2.DeleteMiddle();
+
+                // Display the stack after deleting the middle element again
+                Console.WriteLine("Stack after deleting the middle element again:");
+                Console.WriteLine(stack2); // Stack: Top -> 11 -> 9 -> 2 -> 8 -> 14 -> 7
+            
+}
            }
 }

@@ -43,6 +43,31 @@
 
                 // Check if the queue is empty
                 Console.WriteLine($"Is Empty: {queue.IsEmpty()}"); // Expected Output: False
+
+
+                // Stack with reverse example
+                Console.WriteLine("Stack with Reverse Example:");
+                StackWithReverse stack1 = new StackWithReverse();
+
+                // Push nodes onto the stack
+                stack1.Push(1);
+                stack1.Push(2);
+                stack1.Push(3);
+                stack1.Push(4);
+                stack1.Push(5);
+
+                Console.WriteLine(stack); // Expected Output: Stack: Top -> 5 -> 4 -> 3 -> 2 -> 1
+
+                // Reverse the stack
+                stack1.ReverseStack();
+                Console.WriteLine(stack); // Expected Output: Stack: Top -> 1 -> 2 -> 3 -> 4 -> 5
+
+                // Push more elements and reverse again
+                stack1.Push(6);
+                stack1.Push(7);
+                Console.WriteLine(stack); // Expected Output: Stack: Top -> 7 -> 6 -> 1 -> 2 -> 3 -> 4 -> 5
+                stack1.ReverseStack();
+                Console.WriteLine(stack); // Expected Output: Stack: Top -> 5 -> 4 -> 3 -> 2 -> 1 -> 6 -> 7
             }
-        }
+           }
 }

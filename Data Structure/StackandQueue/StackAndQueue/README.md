@@ -237,3 +237,281 @@ public class Queue
 ```
 ## ScreenShot of output 
 ![output](./output.png)
+
+
+
+# Stack & Queue: Reverse a Stack using Queue
+
+## Problem Domain
+
+Implement a method to reverse a stack using a queue in C#. Extend the existing `Stack` class and add a `ReverseStack()` method that uses a queue to reverse the stack.
+
+## Detailed Requirements
+
+- **Class:** `StackWithReverse` extending the `Stack` class.
+- **Method:** `ReverseStack()` to reverse stack elements using a queue.
+
+## Example
+
+```csharp
+StackWithReverse stack = new StackWithReverse();
+stack.Push(1);
+stack.Push(2);
+stack.Push(3);
+stack.Push(4);
+stack.Push(5);
+
+Console.WriteLine(stack); // Stack: Top -> 5 -> 4 -> 3 -> 2 -> 1
+stack.ReverseStack();
+Console.WriteLine(stack); // Stack: Top -> 1 -> 2 -> 3 -> 4 -> 5
+
+stack.Push(6);
+stack.Push(7);
+Console.WriteLine(stack); // Stack: Top -> 7 -> 6 -> 1 -> 2 -> 3 -> 4 -> 5
+stack.ReverseStack();
+Console.WriteLine(stack); // Stack: Top -> 5 -> 4 -> 3 -> 2 -> 1 -> 6 -> 7
+```
+## Inputs and Expected Outputs
+
+### Multiple Elements:
+- **Input:** 1, 2, 3, 4, 5
+- **Output after reverse:** 1, 2, 3, 4, 5
+
+### One Element:
+- **Input:** 1
+- **Output after reverse:** 1
+
+### Empty Stack:
+- **Input:** []
+- **Output after reverse:** []
+
+## Edge Cases
+- Stack is empty.
+- Stack contains only one element.
+
+## Visual
+
+### Stack (before reversal)
+| 5 | | 4 | | 3 | | 2 | | 1 |
+
+### Stack (after reversal)
+| 1 | | 2 | | 3 | | 4 | | 5 |
+
+
+## Algorithm
+1. Pop elements from the stack one by one.
+2. Enqueue each element into the queue.
+3. Dequeue elements from the queue and push them back into the stack.
+4. The stack is now reversed.
+
+## Real Code
+
+### Node Class
+```csharp
+// Node class
+public class Node
+{
+    public int Data { get; set; }
+    public Node Next { get; set; }
+
+    public Node(int data)
+    {
+        Data = data;
+        Next = null;
+    }
+}
+```
+### Stack Class
+// Stack class
+```
+public class Stack
+{
+    private Node top;
+
+    public Stack()
+    {
+        top = null;
+    }
+
+    public void Push(int data)
+    {
+        var newNode = new Node(data);
+        newNode.Next = top;
+        top = newNode;
+    }
+
+    public int Pop()
+    {
+        if (IsEmpty())
+            throw new InvalidOperationException("Stack is empty.");
+
+        int data = top.Data;
+        top = top.Next;
+        return data;
+    }
+
+    public int Peek()
+    {
+        if (IsEmpty())
+            throw new InvalidOperationException("Stack is empty.");
+
+        return top.Data;
+    }
+
+    public bool IsEmpty()
+    {
+        return top == null;
+    }
+
+    public override string ToString()
+    {
+        if (IsEmpty())
+            return "Stack is empty.";
+
+        var tempStack = new Stack<int>();
+        var result = "Stack: Top -> ";
+
+        while (!IsEmpty())
+        {
+            int data = Pop();
+            tempStack.Push(data);
+        }
+
+        while (tempStack.Count > 0)
+        {
+            int data = tempStack.Pop();
+            result += data + " -> ";
+            Push(data); // Restore to original stack
+        }
+
+        return result.TrimEnd(' ', '-') + " (End)";
+    }
+}
+```
+### Queue Class
+```
+// Queue class
+public class Queue
+{
+    private Node front;
+    private Node rear;
+
+    public Queue()
+    {
+        front = null;
+        rear = null;
+    }
+
+    public void Enqueue(int data)
+    {
+        var newNode = new Node(data);
+        if (IsEmpty())
+        {
+            front = newNode;
+            rear = newNode;
+        }
+        else
+        {
+            rear.Next = newNode;
+            rear = newNode;
+        }
+    }
+
+    public int Dequeue()
+    {
+        if (IsEmpty())
+            throw new InvalidOperationException("Queue is empty.");
+
+        int data = front.Data;
+        front = front.Next;
+        if (front == null)
+            rear = null;
+        return data;
+    }
+
+    public int Peek()
+    {
+        if (IsEmpty())
+            throw new InvalidOperationException("Queue is empty.");
+
+        return front.Data;
+    }
+
+    public bool IsEmpty()
+    {
+        return front == null;
+    }
+
+    public void PrintQueue()
+    {
+        var current = front;
+        while (current != null)
+        {
+            Console.WriteLine(current.Data);
+            current = current.Next;
+        }
+    }
+}
+
+```
+### StackWithReverse Class
+```
+// StackWithReverse class
+public class StackWithReverse : Stack
+{
+    private Queue<int> queue;
+
+    public StackWithReverse() : base()
+    {
+        queue = new Queue<int>();
+    }
+
+    public void ReverseStack()
+    {
+        if (IsEmpty())
+        {
+            Console.WriteLine("Stack is empty. Nothing to reverse.");
+            return;
+        }
+
+        while (!IsEmpty())
+        {
+            int data = Pop();
+            queue.Enqueue(data);
+        }
+
+        while (queue.Count > 0)
+        {
+            int data = queue.Dequeue();
+            Push(data);
+        }
+    }
+
+    public override string ToString()
+    {
+        if (IsEmpty())
+            return "Stack is empty.";
+
+        var tempStack = new Stack<int>();
+        var result = "Stack: Top -> ";
+
+        while (!IsEmpty())
+        {
+            int data = Pop();
+            tempStack.Push(data);
+        }
+
+        while (tempStack.Count > 0)
+        {
+            int data = tempStack.Pop();
+            result += data + " -> ";
+            Push(data);
+        }
+
+        return result.TrimEnd(' ', '-') + " (End)";
+    }
+}
+```
+
+## Screenshot of output 
+![output](./output1.png)

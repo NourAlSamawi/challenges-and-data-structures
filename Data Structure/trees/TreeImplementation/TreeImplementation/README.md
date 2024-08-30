@@ -90,3 +90,128 @@ Implement a binary tree and binary search tree data structures in C#.
 
 ## Console Output Screenshot
 ![output](./tree.png)
+
+# Binary Tree - Mirror Tree
+
+## Problem Domain
+
+Convert a binary tree into its mirror tree. The mirror tree of a binary tree is a tree that looks exactly like the original binary tree but with all the left and right children swapped at every node.
+
+## Challenge Description
+
+Implement a method to convert the Binary Tree into its mirror tree. This involves:
+- Swapping the left and right subtrees at every node.
+- Performing an inorder traversal to demonstrate the transformation.
+
+## Methods
+
+### MirrorTree()
+
+- Converts the Binary Tree into its mirror tree.
+- Recursively swap the left and right subtrees.
+
+### InorderTraversal()
+
+- Returns a list of nodes in inorder sequence.
+
+## Example
+
+
+**Original Binary Tree:**
+
+4 /
+8 7 / 12 9
+
+
+**Mirrored Binary Tree:**
+
+4 /
+7 8 /
+9 12
+
+
+## Instructions
+
+1. **Create a new branch** called `Mirror-Tree` inside your `Data Structures` directory.
+2. **Create a folder** named `MirrorTree` inside `Data Structures`.
+3. **Implement** the `MirrorTree` functionality in your `BinaryTree` class.
+4. **Add a `README.md` file** with the following content inside the `MirrorTree` folder.
+5. **Include a screenshot** of your console output in the `README.md` file.
+6. **Update the Table of Contents** in the root `README.md` of your repository with a link to this challenge's `README.md` file.
+
+## Console Output Example
+
+```csharp
+BinaryTree Btree = new BinaryTree();
+Btree.Root = new Node(4);
+Btree.Root.Left = new Node(8);
+Btree.Root.Right = new Node(7);
+Btree.Root.Left.Left = new Node(12);
+Btree.Root.Left.Right = new Node(9);
+
+List<int> originalInorder = Btree.InorderTraversal(); // Output: [12, 8, 9, 4, 7]
+
+      4
+     / \
+    8   7
+   / \
+ 12   9
+
+Btree.Mirror();
+
+      4
+     / \
+    7   8
+       / \
+      9  12
+
+List<int> mirroredInorder = Btree.InorderTraversal(); // Output: [7, 4, 9, 8, 12]
+```
+## Edge Cases
+
+1. **Empty Tree**
+   - Ensure that the method handles the case where the tree is empty.
+
+2. **Single-Node Tree**
+   - Verify the method works with a tree containing only one node.
+
+3. **Complex Trees**
+   - Test with trees of varying structures to ensure all nodes are mirrored correctly.
+
+## Visual
+
+### Original Binary Tree:
+  4
+ / \
+8   7
+/
+12 9
+### Mirrored Binary Tree:
+
+  4
+ / \
+7   8
+   / \
+  9  12
+
+  
+## Algorithm
+
+### MirrorTree()
+1. Traverse the tree recursively.
+2. Swap the left and right children of each node.
+3. Continue until all nodes have been processed.
+
+### InorderTraversal()
+1. Traverse the left subtree.
+2. Visit the root.
+3. Traverse the right subtree.
+4. Collect node values in a list.
+
+## Big O Time/Space Complexity
+
+- **Time Complexity:** O(n), where `n` is the number of nodes in the tree. Each node is visited once.
+- **Space Complexity:** O(h), where `h` is the height of the tree. This is due to the recursion stack space.
+
+## ScreenShot
+![output](./binarytree.png)

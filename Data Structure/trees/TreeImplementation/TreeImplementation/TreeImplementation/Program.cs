@@ -4,6 +4,33 @@
     {
         static void Main(string[] args)
         {
+            // Create and initialize the binary tree
+            BinaryTree tree = new BinaryTree();
+            tree.Root = new Node(4);
+            tree.Root.Left = new Node(8);
+            tree.Root.Right = new Node(7);
+            tree.Root.Left.Left = new Node(12);
+            tree.Root.Left.Right = new Node(9);
+
+            Console.WriteLine("Original Binary Tree:");
+            tree.Print(tree.Root);
+            Console.WriteLine("Inorder Traversal of Original Tree:");
+            List<int> originalInorder = tree.InorderTraversal();
+            Console.WriteLine(string.Join(", ", originalInorder));
+
+            // Convert the tree to its mirror
+            tree.Mirror();
+
+            Console.WriteLine("\nMirrored Binary Tree:");
+            tree.Print(tree.Root);
+            Console.WriteLine("Inorder Traversal of Mirrored Tree:");
+            List<int> mirroredInorder = tree.InorderTraversal();
+            Console.WriteLine(string.Join(", ", mirroredInorder));
+
+            // Keep the console window open
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+
             // Demonstrating BinaryTree functionalities
             Console.WriteLine("Binary Tree Example:");
             BinaryTree binaryTree = new BinaryTree();

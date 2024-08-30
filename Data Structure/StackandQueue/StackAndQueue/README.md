@@ -644,4 +644,54 @@ Below is a screenshot of the console output demonstrating the stack operations:
 The implementation of the `DeleteMiddle` method can be found in the `StackWithDeleteMiddle.cs` file within the `DeleteMiddleElement` folder. This method handles the core functionality of removing the middle element from the stack.
 
 ## ScreenShot of output
-![output](./output2.png)
+![output](./output2.png
+
+
+
+# Min Stack
+
+## Problem Domain
+Implement a MinStack class in C# that supports the following methods and retrieves the minimum element in constant time complexity:
+- Push()
+- Pop()
+- Top()
+- IsEmpty()
+- GetMin()
+- PrintStack()
+
+## Inputs and Expected Outputs
+| Operation | Input  | Output  |
+| --------- | ------ | ------- |
+| Push      | 15, 7  | -       |
+| GetMin    | -      | 7       |
+| Pop       | -      | 3       |
+| Top       | -      | 12      |
+| IsEmpty   | -      | False   |
+
+## Edge Cases
+- Popping from an empty stack should throw an exception.
+- Getting the minimum from an empty stack should throw an exception.
+
+## Visual Representation
+
+Initial Stack: Top -> 3 -> 12 -> 7 -> 15 (min: 3)
+
+After Pop(): Top -> 12 -> 7 -> 15 (min: 7)
+
+After Push(2): Top -> 2 -> 12 -> 7 -> 15 (min: 2)
+
+
+## Algorithm
+1. Initialize two stacks: `mainStack` for storing elements, and `minStack` for storing the minimum elements.
+2. On `Push(x)`, push `x` onto `mainStack`. If `minStack` is empty or `x` is less than or equal to the top of `minStack`, push `x` onto `minStack`.
+3. On `Pop()`, pop the top element from `mainStack`. If the popped element is the same as the top of `minStack`, pop the top element from `minStack`.
+4. On `GetMin()`, return the top element of `minStack`.
+5. On `Top()`, return the top element of `mainStack`.
+6. On `IsEmpty()`, return whether `mainStack` is empty.
+
+## Big O Time/Space Complexity
+- **Time Complexity:** O(1) for all operations.
+- **Space Complexity:** O(n), where `n` is the number of elements in the stack.
+
+## Console Output
+![output](./min.png)

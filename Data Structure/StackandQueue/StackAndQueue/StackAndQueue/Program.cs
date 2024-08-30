@@ -4,6 +4,44 @@
         {
             static void Main(string[] args)
             {
+
+
+                MinStack minStack = new MinStack();
+
+                // Push elements to the stack
+                minStack.Push(15);
+                minStack.Push(7);
+                minStack.Push(12);
+                minStack.Push(3);
+
+                // Print the stack
+                Console.WriteLine("Current Stack:");
+                minStack.PrintStack(); // Expected output: Top -> 3 -> 12 -> 7 -> 15
+
+                // Get the minimum element
+                Console.WriteLine("\nMinimum Element: " + minStack.GetMin()); // Expected output: 3
+
+                // Pop the top element
+                Console.WriteLine("\nPopped Element: " + minStack.Pop()); // Expected output: 3
+                minStack.PrintStack(); // Expected output: Top -> 12 -> 7 -> 15
+
+                // Get the new minimum element
+                Console.WriteLine("\nMinimum Element: " + minStack.GetMin()); // Expected output: 7
+
+                // Peek the top element
+                Console.WriteLine("\nTop Element: " + minStack.Top()); // Expected output: 12
+
+                // Push another element
+                minStack.Push(2);
+                Console.WriteLine("\nAfter Pushing 2:");
+                minStack.PrintStack(); // Expected output: Top -> 2 -> 12 -> 7 -> 15
+
+                // Get the new minimum element
+                Console.WriteLine("\nMinimum Element: " + minStack.GetMin()); // Expected output: 2
+
+                // Check if the stack is empty
+                Console.WriteLine("\nIs the stack empty? " + minStack.IsEmpty()); // Expected output: False
+           
                 // Stack Example
                 Console.WriteLine("Stack Example:");
                 Stack stack = new Stack();

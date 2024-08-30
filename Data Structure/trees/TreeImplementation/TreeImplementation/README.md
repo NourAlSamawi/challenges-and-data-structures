@@ -215,3 +215,112 @@ List<int> mirroredInorder = Btree.InorderTraversal(); // Output: [7, 4, 9, 8, 12
 
 ## ScreenShot
 ![output](./binarytree.png)
+
+# Binary Tree - Second Maximum Value
+
+## Problem Domain
+
+The task is to find the second maximum value in a binary tree. The second maximum value is the largest value among the nodes that are less than the maximum value in the tree.
+
+## Challenge Description
+
+Given a binary tree, write a method `FindSecondMax()` that traverses the tree to find the second maximum value. The solution should handle edge cases such as:
+- An empty tree.
+- A tree with only one node.
+- A tree with fewer than two unique values.
+
+### Example
+
+Given the following binary tree:
+  10
+ /  \
+5    20
+/ \ /
+3 7 15 25
+
+The second maximum value is `20`.
+
+## Inputs and Expected Outputs
+
+| Input | Output |
+|-------|--------|
+| Tree with values `[10, 5, 20, 3, 7, 15, 25]` | `20` |
+| Empty Tree | Exception: "Tree must have at least two nodes." |
+| Tree with one value `[10]` | Exception: "Tree must have at least two nodes." |
+| Tree with all identical values `[10, 10, 10]` | Exception: "Tree must have at least two unique values." |
+
+## Edge Cases
+
+- **Empty Tree**: The method should throw an exception indicating that the tree must contain at least two nodes.
+- **Single Node**: The method should throw an exception indicating that the tree must contain at least two nodes.
+- **Duplicate Values**: The method should throw an exception if the tree does not contain at least two unique values.
+
+## Visual Representation
+
+Here’s a visual representation of the binary tree:
+
+10
+ /  \
+5    20
+/ \ /
+3 7 15 25
+In this tree:
+- The maximum value is `25`.
+- The second maximum value is `20`.
+
+## Algorithm
+
+1. Initialize `max` and `secondMax` to `int.MinValue`.
+2. Traverse the tree recursively:
+    - If the current node's value is greater than `max`, update `secondMax` to `max` and `max` to the current node's value.
+    - If the current node's value is less than `max` but greater than `secondMax`, update `secondMax`.
+3. After the traversal, if `secondMax` is still `int.MinValue`, throw an exception indicating there aren't enough unique values in the tree.
+4. Return `secondMax`.
+
+## Real Code
+
+Here’s the implementation of the `FindSecondMax()` method:
+
+```csharp
+public int FindSecondMax()
+{
+    if (Root == null || (Root.Left == null && Root.Right == null))
+        throw new InvalidOperationException("Tree must have at least two nodes.");
+
+    int max = int.MinValue;
+    int secondMax = int.MinValue;
+
+    void Traverse(Node node)
+    {
+        if (node == null) return;
+
+        if (node.Data > max)
+        {
+            secondMax = max;
+            max = node.Data;
+        }
+        else if (node.Data > secondMax && node.Data < max)
+        {
+            secondMax = node.Data;
+        }
+
+        Traverse(node.Left);
+        Traverse(node.Right);
+    }
+
+    Traverse(Root);
+
+    if (secondMax == int.MinValue)
+        throw new InvalidOperationException("Tree must have at least two unique values.");
+
+    return secondMax;
+}
+```
+
+## Big O Time/Space Complexity
+
+- **Time Complexity**: `O(n)`, where `n` is the number of nodes in the tree. The method needs to visit each node to determine the second maximum value.
+
+- **Space Complexity**: `O(h)`, where `h` is the height of the tree. The space complexity is mainly due to the recursive stack space used during the tree traversal.
+
+![output](./max.png)

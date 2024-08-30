@@ -97,6 +97,41 @@ namespace TreeImplementation
             result.Add(node.Data);
             InorderTraversal(node.Right, result);
         }
+        public int FindSecondMax()
+        {
+            if (Root == null || (Root.Left == null && Root.Right == null))
+                throw new InvalidOperationException("Tree must have at least two nodes.");
+
+            int max = int.MinValue;
+            int secondMax = int.MinValue;
+
+            // Helper function to traverse the tree
+            void Traverse(Node node)
+            {
+                if (node == null) return;
+
+                if (node.Data > max)
+                {
+                    secondMax = max;
+                    max = node.Data;
+                }
+                else if (node.Data > secondMax && node.Data < max)
+                {
+                    secondMax = node.Data;
+                }
+
+                Traverse(node.Left);
+                Traverse(node.Right);
+            }
+
+            Traverse(Root);
+
+            if (secondMax == int.MinValue)
+                throw new InvalidOperationException("Tree must have at least two unique values.");
+
+            return secondMax;
+        }
+
     }
 
 }

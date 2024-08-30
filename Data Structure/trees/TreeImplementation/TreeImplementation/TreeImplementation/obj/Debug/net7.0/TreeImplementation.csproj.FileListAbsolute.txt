@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\bin\Debug\net7.0\TreeImplementation.exe
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\bin\Debug\net7.0\TreeImplementation.deps.json
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\bin\Debug\net7.0\TreeImplementation.runtimeconfig.json
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\bin\Debug\net7.0\TreeImplementation.dll
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\bin\Debug\net7.0\TreeImplementation.pdb
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\TreeImplementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\TreeImplementation.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\TreeImplementation.AssemblyInfo.cs
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\TreeImplementation.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\TreeImplementation.sourcelink.json
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\TreeImplementation.dll
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\refint\TreeImplementation.dll
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\TreeImplementation.pdb
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\TreeImplementation.genruntimeconfig.cache
+C:\Users\Student\source\repos\challenges-and-data-structures\Data Structure\trees\TreeImplementation\TreeImplementation\TreeImplementation\obj\Debug\net7.0\ref\TreeImplementation.dll
